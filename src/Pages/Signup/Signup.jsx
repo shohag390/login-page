@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaFacebookF, FaGoogle, FaLinkedinIn } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 const Signup = () => {
     const navigate = useNavigate();
@@ -30,7 +31,7 @@ const Signup = () => {
         <div className='bg-[#212529] flex items-center justify-center container mx-auto h-[100vh] w-full'>
             <div className='h-[92vh] w-[70%] bg-[#111418] flex justify-between rounded-2xl'>
                 <div className='login-bg w-[55%] p-[40px] rounded-es-2xl rounded-tl-2xl relative'>
-                    <h4 className='font-bold text-[#fff] text-[30px]'>Logo</h4>
+                    <img className='h-[60px]' src={logo} alt="logo" />
                     <div className='absolute top-0 left-0 h-[100%] w-[100%] flex items-center p-[40px]'>
                         <div className='text-[#fff]'>
                             <h1 className='font-bold text-[30px] capitalize'>You are new Here !</h1>
