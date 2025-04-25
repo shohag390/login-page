@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import "tailwindcss";
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.login-bg {
+  background-image: linear-gradient(#6f45b7cd, #6f45b7cd), url("./assets/login-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
