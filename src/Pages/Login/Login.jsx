@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FaFacebookF, FaGoogle, FaLinkedinIn } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import logo from '../../assets/logo.png';
+import { toast } from 'react-toastify';
 
 const Login = () => {
     const navigate = useNavigate();
@@ -28,16 +29,14 @@ const Login = () => {
             const user = JSON.parse(storedData);
 
             if (user?.email === loginData?.email && user?.password === loginData?.password) {
-                console.log("Login successful ✅");
-
+                toast.success("Login successful")
                 localStorage.setItem('isLoggedIn', 'true');
-
                 navigate("/");
             } else {
-                console.log("Invalid credentials ❌");
+                toast.error("Invalid Email Or Password")
             }
         } else {
-            console.log("No user found in localStorage");
+            toast.info("User Not found");
         }
     };
 
