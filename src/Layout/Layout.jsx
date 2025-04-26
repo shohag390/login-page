@@ -2,7 +2,6 @@ import React from 'react';
 import PostContent from '../Pages/PostContent/PostContent';
 import Contents from '../Pages/Content/Contents';
 import Navbar from '../Components/Navbar/Navbar';
-import Footer from '../Components/Footer/Footer';
 import SideNav from '../Components/SideNav/SideNav';
 import Notifications from '../Components/Notifications/Notifications';
 

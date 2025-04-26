@@ -43,7 +43,7 @@ const Content = ({ data }) => {
                 </button>
             </div>
             <p className='text-[#000] pt-[15px] pb-[20px]'>{text}</p>
-            <img className='md:h-[330px] h-[200px] w-full rounded-xl' src={image} alt="image" />
+            <img className='w-full rounded-xl' src={image} alt="image" />
             <div className='flex items-center justify-between border-t-[1px] border-[#6f45b7] py-[15px] mt-[25px]'>
                 <div className=''>
                     <LikeButton />
