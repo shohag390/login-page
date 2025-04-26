@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { LuPenLine } from 'react-icons/lu';
-import user from '../../assets/user.png';
+import user from '../../assets/user.jpeg';
 import { FaImages } from 'react-icons/fa';
 
 
@@ -50,19 +50,19 @@ const PostContent = () => {
     };
 
     return (
-        <div className='w-full p-[20px] bg-[#111418] rounded-2xl'>
-            <div className='flex items-center gap-[10px] pb-[18px]'>
-                <div className='h-[40px] w-[40px] rounded-full bg-[#6f45b750] flex items-center justify-center text-[#fff] text-[20px]'>
+        <div className='w-full md:p-[20px] p-[15px] bg-[#fff] card rounded-2xl'>
+            <div className='flex items-center gap-[10px] md:pb-[18px] pb-[15px]'>
+                <div className='md:h-[40px] h-[30px] md:w-[40px] w-[30px] rounded-full bg-[#6f45b750] flex items-center justify-center text-[#fff] text-[20px]'>
                     <LuPenLine />
                 </div>
-                <span className='text-[#fff]'>Create Post</span>
+                <span className='text-[#6e6e6e] font-medium'>Create Post</span>
             </div>
             <form onSubmit={handlePost}>
-                <div className='flex gap-[10px] border-[2px] border-[#6f45b750] rounded-xl p-[15px]'>
-                    <img className='h-[35px] w-[35px] rounded-full' src={user} alt="userImage" />
+                <div className='flex gap-[10px] border-[1px] border-[#6e45b7] rounded-xl p-[15px]'>
+                    <img className='md:h-[35px] h-[30px] md:w-[35px] w-[30px] rounded-full' src={user} alt="userImage" />
                     <textarea
                         rows={3}
-                        className='w-full h-full text-[#fff] border-none focus:outline-none placeholder:text-[gray]' placeholder="What's on your mind"
+                        className='w-full h-full text-[#000] border-none focus:outline-none placeholder:text-[gray]' placeholder="What's on your mind"
                         name='text'
                         value={posts.text}
                         onChange={handleChange}
@@ -70,23 +70,25 @@ const PostContent = () => {
                     >
                     </textarea>
                 </div>
-                <div className='flex items-center justify-between'>
-                    <div className='flex items-center gap-[10px]'>
-                        <FaImages className='text-[25px] text-[#fff]' />
+                <div className='w-full flex items-center justify-between pt-[10px]'>
+                    <div className='md:w-[80%] w-[70%] flex items-center gap-[10px]'>
+                        <FaImages className='md:text-[25px] text-[#6e45b7]' />
                         <input
-                            className='text-[#a8a8a8]'
+                            className='text-[#626262] md:text-[18px] text-[10px]'
                             type="file"
                             accept="image/jpeg, image/jpg, image/png"
                             onChange={handleImage}
                             required
                         />
                     </div>
-                    <button
-                        className='mt-[10px]  bg-[#6f45b7] py-[6px] px-[30px] rounded-md text-[#fff]'
-                        type='submit
+                    <div className='md:w-[20%] w-[30%] flex justify-end'>
+                        <button
+                            className='bg-[#6f45b7] hover:bg-[#553c7e] duration-700 active:scale-[.9] text-white md:px-[30px] px-[20px] py-[6px] rounded-md'
+                            type='submit
                         '>
-                        Post
-                    </button>
+                            Post
+                        </button>
+                    </div>
                 </div>
             </form>
         </div>

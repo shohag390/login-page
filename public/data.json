@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "name": "Anthony Daugloi",
-        "description": "ইতিহাস সাক্ষি, আজ পর্যন্ত রিকশাওয়ালা মামা ছাড়া আমাকে পাওয়ার জন্য কেউ ঝগড়া করে নাই!",
+        "time": "1s",
+        "description": "You last story got 11 views before it expired. You can create a new Story",
         "image": "https://i.ibb.co.com/JR2YcYqT/images.jpg"
     },
     {
         "id": 2,
-        "name": "Anthony Daugloi",
-        "description": "সকলের কাছে একটি খোলা চিঠি, আমি কারও শখের ব্যাডা না।ইতি-তোমাদের প্রিয়তম।",
+        "time": "1m",
+        "description": "Josie B. Hammack mentioned you in a comment",
         "image": "https://i.ibb.co.com/Bkx3g4D/beautiful-beach-free-image-after-sunset-sky-picjumbo-com.jpg"
     },
     {
         "id": 3,
-        "name": "Anthony Daugloi",
-        "description": "গাছের গোড়ায় প্রতিদিন পানি বদলে মদ ঢেলে দিন!দেখবেন গাছ মাতাল হয়ে বৈশাখ মাসের ফল ভাদ্র মাসে দিবে।",
-        "image": "https://i.ibb.co.com/HpdZ3kx8/images-2.jpg"
+        "time": "20m",
+        "description": "Josie B. Hammack mentioned reacted to you comment",
+        "image": "https://i.ibb.co.com/Bkx3g4D/beautiful-beach-free-image-after-sunset-sky-picjumbo-com.jpg"
     },
     {
         "id": 4,
-        "name": "Anthony Daugloi",
-        "description": "আমাকে যারা ঘৃনা করেন, শুধু তারাই কেয়ার রিয়েক্ট দেন।",
+        "time": "1d",
+        "description": "You last story got 11 views before it expired. You can create a new Story",
         "image": "https://i.ibb.co.com/rRsq2b54/images-1.jpg"
     },
     {
         "id": 5,
-        "name": "Anthony Daugloi",
-        "description": "এতো এতো লয়্যালদের মাঝে, ৪/৫ মেয়ে ফ্রেন্ড রেখে নিজেকে চিটার বাটপার মনে হচ্ছে।",
+        "time": "1d",
+        "description": "Josie B. Hammack mentioned you in a comment",
         "image": "https://i.ibb.co.com/4R6kzhGc/Bid2-min.png"
     },
     {
         "id": 6,
-        "name": "Anthony Daugloi",
-        "description": "আমি ভাবতাম কাজে আমিই ফাস্ট, তারপর সংসার সেকশনে আসলাম, বাচ্চা নিলাম, আমার ধারণা পাল্টে গেল।",
+        "time": "2d",
+        "description": "Fairuz Pakhi mentioned reacted to you comment",
         "image": "https://i.ibb.co.com/BM2Y4Rg/Bid1-min.png"
     }
 ]

@@ -9,18 +9,16 @@ import Notifications from '../Components/Notifications/Notifications';
 const Layout = () => {
     return (
         <>
-            <header>
-                <Navbar />
-            </header>
-            <main className='flex justify-between gap-[20px] bg-[#212529] container mx-auto px-[80px] py-[20px] h-[88vh]'>
-                <aside className='w-[20%] h-full'>
+            <Navbar />
+            <main className='flex justify-between gap-[10px] bg-[#fbfcfe] md:container md:mx-auto md:px-[80px] px-[20px] pb-[20px] md:h-[88vh] h-full'>
+                <aside className='md:w-[25%] md:block hidden md:h-full my-[20px] py-[5px]'>
                     <SideNav />
                 </aside>
-                <div className='w-[60%] h-[83vh] overflow-y-auto hide-scrollbar'>
+                <div className='md:w-[50%] w-full md:h-[83vh] overflow-y-auto hide-scrollbar my-[20px] py-[5px] md:px-[30px] px-[5px]'>
                     <PostContent />
                     <Contents />
                 </div>
-                <aside className='w-[20%] h-full'>
+                <aside className='md:w-[25%] md:block hidden h-full my-[20px] py-[5px]'>
                     <Notifications />
                 </aside>
             </main>

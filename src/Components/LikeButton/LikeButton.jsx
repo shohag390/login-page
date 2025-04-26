@@ -17,7 +17,7 @@ const LikeButton = () => {
     return (
         <button
             onClick={handleLike}
-            className={`flex items-center gap-2 p-2 rounded-full transition ${liked ? 'text-blue-600' : 'text-gray-500'
+            className={`flex items-center text-[20px] gap-[10px] rounded-full transition ${liked ? 'text-[#6e45b7]' : 'text-[#8d8d8d]'
                 }`}
         >
             <FaThumbsUp />
