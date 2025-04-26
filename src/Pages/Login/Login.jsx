@@ -41,8 +41,8 @@ const Login = () => {
 
 
     return (
-        <div className='bg-[#fbfcfe] flex items-center justify-center container mx-auto h-[100vh] w-full'>
-            <div className='w-[30%] p-[40px] bg-[#ffff] card rounded-2xl'>
+        <div className='bg-[#fbfcfe] flex items-center justify-center md:container md:mx-auto h-[100vh] w-full'>
+            <div className='md:w-[30%] w-[90%] p-[40px] bg-[#ffff] card rounded-2xl'>
                 <form onSubmit={handleLogin} className='text-[#6e45b7]'>
                     <h4 className='text-center font-bold text-[28px] pb-[20px]'>Sign In</h4>
 

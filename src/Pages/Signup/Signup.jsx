@@ -27,8 +27,8 @@ const Signup = () => {
 
 
     return (
-        <div className='bg-[#fbfcfe] flex items-center justify-center container mx-auto h-[100vh] w-full'>
-            <div className='h-[92vh] w-[30%] bg-[#fff] card flex justify-between flex-col p-[30px] rounded-2xl'>
+        <div className='bg-[#fbfcfe] flex items-center justify-center md:container md:mx-auto h-[100vh] w-full'>
+            <div className='h-[92vh] md:w-[30%] w-[90%] bg-[#fff] card flex justify-between flex-col p-[30px] rounded-2xl'>
 
                 <form onSubmit={handleSubmit}>
                     <h4 className='text-center text-[#6e45b7] font-bold text-[28px] pb-[20px]'>

@@ -20,21 +20,21 @@ const Navbar = () => {
             <ul className='md:flex md:items-center md:gap-[20px] hidden'>
                 <li className=''>
                     <NavLink
-                        className={(navClass) => navClass?.isActive ? "h-[45px] w-[45px] rounded-full flex items-center justify-center bg-[#553c7e] hover:bg-[#553c7e] text-[#fff] text-[20px] active:scale-[.9] duration-700" : "h-[45px] w-[45px] bg-[#6f45b7] rounded-full text-[#fff] text-[20px] active:scale-[.9] duration-700"}
+                        className={(navClass) => navClass?.isActive ? "h-[45px] w-[45px] rounded-full flex items-center justify-center bg-[#553c7e] hover:bg-[#553c7e] text-[#fff] text-[20px] active:scale-[.9] duration-700" : "h-[45px] w-[45px] bg-[#6f45b7] hover:bg-[#553c7e] rounded-full text-[#fff] text-[20px] flex items-center justify-center active:scale-[.9] duration-700"}
                         to={"/"}>
                         <FaHome />
                     </NavLink>
                 </li>
                 <li className=''>
                     <NavLink
-                        className={(navClass) => navClass?.isActive ? "h-[45px] w-[45px] rounded-full flex items-center justify-center bg-[#553c7e] hover:bg-[#553c7e] text-[#fff] text-[20px] active:scale-[.9]" : "h-[45px] w-[45px] bg-[#6f45b7] hover:bg-[#553c7e] rounded-full text-[#fff] text-[20px] flex items-center justify-center active:scale-[.9]"}
+                        className={(navClass) => navClass?.isActive ? "h-[45px] w-[45px] rounded-full flex items-center justify-center bg-[#553c7e] hover:bg-[#553c7e] text-[#fff] text-[20px] active:scale-[.9] duration-700" : "h-[45px] w-[45px] bg-[#6f45b7] hover:bg-[#553c7e] rounded-full text-[#fff] text-[20px] flex items-center justify-center active:scale-[.9] duration-700"}
                         to={"/message"}>
                         <RiMessageFill />
                     </NavLink>
                 </li>
                 <li className=''>
                     <NavLink
-                        className={(navClass) => navClass?.isActive ? "h-[45px] w-[45px] rounded-full flex items-center justify-center bg-[#553c7e] hover:bg-[#553c7e] text-[#fff] text-[20px] active:scale-[.9]" : "h-[45px] w-[45px] bg-[#6f45b7] hover:bg-[#553c7e] rounded-full text-[#fff] text-[20px] flex items-center justify-center active:scale-[.9]"}
+                        className={(navClass) => navClass?.isActive ? "h-[45px] w-[45px] rounded-full flex items-center justify-center bg-[#553c7e] hover:bg-[#553c7e] text-[#fff] text-[20px] active:scale-[.9] duration-700" : "h-[45px] w-[45px] bg-[#6f45b7] hover:bg-[#553c7e] rounded-full text-[#fff] text-[20px] flex items-center justify-center active:scale-[.9] duration-700"}
                         to={"/add-friend"}>
                         <FaUserPlus />
                     </NavLink>
