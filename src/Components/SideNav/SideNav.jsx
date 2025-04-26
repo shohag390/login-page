@@ -2,8 +2,10 @@ import React from 'react';
 import { CgProfile } from 'react-icons/cg';
 import { FaPeopleGroup } from 'react-icons/fa6';
 import { HiCheckBadge } from 'react-icons/hi2';
+import { IoMdSettings } from 'react-icons/io';
 import { IoTv } from 'react-icons/io5';
 import { LuHistory } from 'react-icons/lu';
+import { MdContactPage, MdOutlineSupportAgent } from 'react-icons/md';
 
 const SideNav = () => {
     return (
@@ -36,9 +38,21 @@ const SideNav = () => {
                 </div>
                 <div className='flex items-center gap-[10px] cursor-pointer'>
                     <div className='h-[40px] w-[40px] flex items-center justify-center bg-[#6f45b7] text-[#fff] rounded-full'>
-                        <CgProfile className='text-[20px]' />
+                        <MdContactPage className='text-[20px]' />
                     </div>
-                    <span className='font-medium text-[16px] text-gray-500'>Author Profile</span>
+                    <span className='font-medium text-[16px] text-gray-500'>Explore Pages</span>
+                </div>
+                <div className='flex items-center gap-[10px] cursor-pointer'>
+                    <div className='h-[40px] w-[40px] flex items-center justify-center bg-[#6f45b7] text-[#fff] rounded-full'>
+                        <IoMdSettings className='text-[20px]' />
+                    </div>
+                    <span className='font-medium text-[16px] text-gray-500'>Profile Settings</span>
+                </div>
+                <div className='flex items-center gap-[10px] cursor-pointer'>
+                    <div className='h-[40px] w-[40px] flex items-center justify-center bg-[#6f45b7] text-[#fff] rounded-full'>
+                        <MdOutlineSupportAgent className='text-[20px]' />
+                    </div>
+                    <span className='font-medium text-[16px] text-gray-500'>Help & Support</span>
                 </div>
             </div>
         </div>
